@@ -27,7 +27,7 @@ def draw_map(size, last_row, last_col):
 def play_game(player):
     """Run one round of the treasure hunt."""
     size = 6
-    max_digs = 7
+    max_digs = 3
 
     treasure_row = random.randint(1, size)
     treasure_col = random.randint(1, size)
